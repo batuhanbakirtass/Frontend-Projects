@@ -1,0 +1,1 @@
+**A collection of small projects developed using HTML, CSS, Bootstrap, JavaScript, and React. These projects focus on building foundational frontend skills, mastering core concepts, and exploring practical applications in user interface design and interactivity.**
