@@ -1,0 +1,1 @@
+**A collection of large-scale projects developed using HTML, CSS, Bootstrap, JavaScript, and React. These projects showcase advanced frontend development skills, demonstrate the integration of modern libraries, and focus on creating responsive, dynamic, and user-friendly web applications for real-world scenarios.**
