@@ -7,7 +7,7 @@
 ## 🖼 Demo Screenshot
 
 <p align="center">
-  <img src="assets/sales-demo.png" alt="Sales Calculator Screenshot" width="800"/>
+  <img src="assets/screenshot.png" alt="Sales Calculator Screenshot" width="800"/>
 </p>
 
 ---
