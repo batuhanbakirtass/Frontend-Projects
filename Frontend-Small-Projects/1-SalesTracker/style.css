@@ -1,0 +1,41 @@
+/* Style for the entire body */
+body {
+    font-family: Arial, sans-serif; /* Font type */
+    margin: 20px; /* Margin around the body */
+}
+
+/* Container to hold the content with some styling */
+.container {
+    max-width: 600px; /* Max width of the container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add padding inside the container */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Input and button styling */
+input, button {
+    margin-bottom: 10px; /* Space below the input/button */
+    padding: 8px; /* Padding inside the input/button */
+    width: 100%; /* Full width of the container */
+    box-sizing: border-box; /* Box-sizing to include padding/border in width */
+}
+
+/* Button style */
+button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text color */
+    cursor: pointer; /* Pointer cursor when hovered */
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Result section style */
+.result {
+    font-size: 20px; /* Large font for the result */
+    font-weight: bold; /* Bold text */
+    color: green; /* Green color for the result */
+}

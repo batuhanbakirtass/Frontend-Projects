@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags for character set and responsive design -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Page title -->
+    <title>Sales Calculator</title>
+
+    <!-- Link to external CSS file for styling -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <!-- Header for the app -->
+    <h2>Sales Calculator</h2>
+
+    <!-- Input fields for item details -->
+    <label for="item">Item Name:</label>
+    <input type="text" id="item" placeholder="Item Name">
+
+    <label for="quantity">Quantity:</label>
+    <input type="number" id="quantity" placeholder="Quantity">
+
+    <label for="price">Price ($):</label>
+    <input type="number" id="price" placeholder="Price" step="0.01">
+
+    <label for="discount">Discount (%):</label>
+    <input type="number" id="discount" placeholder="Discount Percentage" step="0.01">
+
+    <label for="date">Sale Date:</label>
+    <input type="date" id="date">
+
+    <label for="taxRate">Tax Rate (%):</label>
+    <input type="number" id="taxRate" placeholder="Tax Rate" step="0.01">
+
+    <!-- Button to add sale information -->
+    <button onclick="addSale()">Add Sale</button>
+
+    <br><br>
+    
+    <!-- Input field for date filtering -->
+    <label for="filterDate">Filter by Date:</label>
+    <input type="date" id="filterDate">
+    
+    <br><br>
+    
+    <!-- Display total sales result -->
+    <div class="result" id="result"></div>
+</div>
+
+<!-- Link to external JavaScript file -->
+<script src="app.js"></script>
+
+</body>
+</html>
