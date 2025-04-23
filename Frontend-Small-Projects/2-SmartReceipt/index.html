@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SmartReceipt</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Main container for the content -->
+  <div class="container">
+    
+    <!-- Title of the receipt generation system -->
+    <h1>SmartReceipt</h1>
+    
+    <!-- Buttons to generate and print the receipt -->
+    <div class="buttons">
+      <button onclick="generate()">Generate Receipt</button>
+      <button onclick="window.print()">Print</button>
+    </div>
+
+    <!-- Display the receipt content here -->
+    <pre id="receiptOutput" class="receipt"></pre>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
