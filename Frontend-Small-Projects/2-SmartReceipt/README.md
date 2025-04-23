@@ -9,7 +9,7 @@ Welcome to **SmartReceipt**, a simple and elegant web-based solution for generat
 - Stylish, easy-to-use interface for a seamless experience.
 
 ## Screenshot:
-![Screenshot of SmartReceipt](ss.png)
+![Screenshot of SmartReceipt](ss.png/ss.png)
 
 ## Technologies Used:
 - **HTML**: Structure of the receipt page.
